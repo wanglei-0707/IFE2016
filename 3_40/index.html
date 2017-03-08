@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task 40</title>
+	<link rel="stylesheet" type="text/css" href="wl.css">
+</head>
+<body>
+	<div id="dateInput">
+		<div class="input-group">
+			<i class="iconfont" id="calendarIcon">&#xe61d;</i>
+			<input type="text" id="showDate">
+		</div> 
+	</div>
+	<div id="calendar">
+		<div id="search">
+			<i class="iconfont" id="minus">&#xe60c;</i>
+			<div class="input-group">
+				<input id="month" type="text">
+				<div id="monthChoice">
+					<i class="iconfont up" id="monthUp">&#xe608;</i>
+					<i class="iconfont down" id="monthDown">&#xe602;</i>
+				</div>
+			</div>
+			<div class="input-group">
+				<input id="year" type="text">
+				<div id="yearChoice">
+					<i class="iconfont up" id="yearUp">&#xe608;</i>
+					<i class="iconfont down" id="yearDown">&#xe602;</i>
+				</div>
+			</div>
+			<i class="iconfont" id="plus">&#xe600;</i>
+			<br>
+			<div class="input-group" id="radios">
+				<label>具体一天：<input id="specificDay" type="radio" name="choiceMethod" checked="checked"></label>
+				<label>时间段：<input id="periodTime" type="radio" name="choiceMethod"></label>
+			</div>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Su</th>
+					<th>Mo</th>
+					<th>Tu</th>
+					<th>We</th>
+					<th>Th</th>
+					<th>Fr</th>
+					<th>Sa</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+				
+			</tbody>
+		</table>
+	</div>
+	<script src="wl.js"></script>
+</body>
+</html>

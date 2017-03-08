@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task 24</title>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		div{
+			width:95%;
+			height:80%;
+			border:1px solid #000;
+			display: flex;
+			justify-content:space-around;
+			margin:5px;
+			padding:5px;
+			background-color: #ffffff;
+/*			color:#000;*/
+		}
+		.container{
+			height:200px;
+			padding:5px;
+			border:none;
+			margin:100px auto;
+			display: flex;
+			justify-content:space-around;
+		}
+		.btns{
+			width:70%;
+			border:none;
+			margin:0 auto;
+			display: flex;
+			justify-content:center;
+			flex-wrap:wrap;
+		}
+		button{
+			width:170px;
+			height:40px;
+			line-height: 20px;
+			background-color:#00dd00;
+			color:#fff; 
+			font-size: 24px;
+			font-family: "微软雅黑";
+			border-radius: 10px;
+			margin:10px 10px;
+		}
+		input{
+			border-radius: 5px;
+			height:40px;
+			margin-top:10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="container">
+		<div id="root">
+			Super
+			<div>
+				Cat
+				<div>
+					Apple
+					<div>Pear</div>
+					<div>Pig</div>
+					<div>Colo</div>
+					<div>Soccor</div>
+				</div>
+				<div>Phone</div>
+				<div>
+					Pen
+					<div>Book</div>
+					<div>School</div>
+				</div>
+			</div>
+			<div>
+				Note
+				<div>
+					Human
+					<div>Code</div>
+					<div>Operate</div>
+					<div>Man</div>
+				</div>
+				<div>
+					Program
+					<div>
+						Bement
+						<div>Cat</div>
+					</div>
+					<div>Glass</div>
+				</div>
+			</div>
+			<div>Fish</div>
+		</div>
+	</div>
+	<div class="btns">
+		<button id="dft">深度优先遍历</button>
+		<button id="bft">广度优先遍历</button>
+		<input type="text" id="input">
+		<button id="dfs">深度优先搜索</button>
+		<button id="bfs">广度优先搜索</button>
+		<button id="delete">删  除</button>
+		<input type="text" id="addInput">
+		<button id="add">添  加</button>
+	</div>
+	<script src="js/wl.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin:0;
+}
+table{
+	margin:100px auto;
+	border-collapse: collapse;
+}
+th,td{
+	width:120px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	height:40px;
+	border:1px solid #d3d3d3;
+	font-family: "微软雅黑";
+}
+th{
+	background-color: #000;
+	color:#fff;
+}
+td{
+	color: #000;
+}
