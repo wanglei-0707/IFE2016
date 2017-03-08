@@ -56,8 +56,6 @@
 
 [任务三十三：听指令的小方块（一）](http://ife.baidu.com/2016/task/detail?taskId=1)        [demo](https://wanglei-0707.github.io/IFE2016/2_33/index.html)
 
-[任务三十四：听指令的小方块（二）](http://ife.baidu.com/2016/task/detail?taskId=1)        [demo](https://wanglei-0707.github.io/IFE2016/2_34/index.html)
-
 [任务三十五：听指令的小方块（三）](http://ife.baidu.com/2016/task/detail?taskId=1)        [demo](https://wanglei-0707.github.io/IFE2016/2_35/index.html)
 
 [任务三十六：听指令的小方块（四）](http://ife.baidu.com/2016/task/detail?taskId=1)        [demo](https://wanglei-0707.github.io/IFE2016/2_36/index.html)
